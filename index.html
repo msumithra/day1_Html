@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link type = "stylesheet" href = "index.css"/>
+</head>
+<body>
+    <div id= "main">
+        <div id = "circle"></div>
+        <button id = "btn">button</button>
+    </div>
+</body>
+<script>
+    let button = document.querySelector("#btn")
+
+    button.onclick = function(){
+        let div = document.querySelector("#circle")
+        div.style.padding = "10";
+        let main = querySelector("#circle");
+        main.append(div);
+    }
+</script>
+</html>
